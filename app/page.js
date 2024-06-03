@@ -27,11 +27,7 @@ const page = () => {
    
     <div className="container"> 
         <div className={handleDashboard?("navigation active"):"navigation"}>
-        <span className="logo-main text-2xl">
-                          {/* <img style={{height:'5rem', position:'fixed', marginLeft:'1.25rem'}} src={logo.src}></img> */}
-                            {/* <IonIcon icon={logoIonic}></IonIcon> */}
-                            Worklin®
-                        </span>
+        <h2 className="logo-main text-2xl"> Worklin® </h2>
                  
 
             <ul className='side-nav  '>
