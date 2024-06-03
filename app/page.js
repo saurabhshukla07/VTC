@@ -27,23 +27,15 @@ const page = () => {
    
     <div className="container"> 
         <div className={handleDashboard?("navigation active"):"navigation"}>
-        <h2 className="logo-main text-2xl"> Worklin® </h2>
+
+       <div> <h2 className="logo-main text-2xl"> Worklin® </h2></div>
                  
 
             <ul className='side-nav  '>
-               
-                  
-                
-                  
-               
 
-                <li  >
+                <li>
                
                     <a href="#">
-                        {/* <span className="icon">
-                        <IonIcon icon={homeOutline}></IonIcon>
-                        
-                        </span> */}
                         <span className="title"> <p className='p-8 text-white'> Pour,NOBLESSE PLUS SARL</p></span>
                     </a>
                 </li>
